@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22C3AB7E2BA53FD400517D03 /* melt15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3AB7D2BA53FD400517D03 /* melt15App.swift */; };
+		22C3AB802BA53FD400517D03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3AB7F2BA53FD400517D03 /* ContentView.swift */; };
+		22C3AB822BA53FD600517D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C3AB812BA53FD600517D03 /* Assets.xcassets */; };
+		22C3AB852BA53FD600517D03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C3AB842BA53FD600517D03 /* Preview Assets.xcassets */; };
+		22C3AB8F2BA53FD600517D03 /* melt15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3AB8E2BA53FD600517D03 /* melt15Tests.swift */; };
+		22C3AB992BA53FD600517D03 /* melt15UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3AB982BA53FD600517D03 /* melt15UITests.swift */; };
+		22C3AB9B2BA53FD600517D03 /* melt15UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3AB9A2BA53FD600517D03 /* melt15UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22C3AB8B2BA53FD600517D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C3AB722BA53FD400517D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C3AB792BA53FD400517D03;
+			remoteInfo = melt15;
+		};
+		22C3AB952BA53FD600517D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C3AB722BA53FD400517D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C3AB792BA53FD400517D03;
+			remoteInfo = melt15;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22C3AB7A2BA53FD400517D03 /* melt15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = melt15.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C3AB7D2BA53FD400517D03 /* melt15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = melt15App.swift; sourceTree = "<group>"; };
+		22C3AB7F2BA53FD400517D03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22C3AB812BA53FD600517D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22C3AB842BA53FD600517D03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22C3AB8A2BA53FD600517D03 /* melt15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = melt15Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C3AB8E2BA53FD600517D03 /* melt15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = melt15Tests.swift; sourceTree = "<group>"; };
+		22C3AB942BA53FD600517D03 /* melt15UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = melt15UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C3AB982BA53FD600517D03 /* melt15UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = melt15UITests.swift; sourceTree = "<group>"; };
+		22C3AB9A2BA53FD600517D03 /* melt15UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = melt15UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C3AB772BA53FD400517D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C3AB872BA53FD600517D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C3AB912BA53FD600517D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C3AB712BA53FD400517D03 = {
+			isa = PBXGroup;
+			children = (
+				22C3AB7C2BA53FD400517D03 /* melt15 */,
+				22C3AB8D2BA53FD600517D03 /* melt15Tests */,
+				22C3AB972BA53FD600517D03 /* melt15UITests */,
+				22C3AB7B2BA53FD400517D03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22C3AB7B2BA53FD400517D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22C3AB7A2BA53FD400517D03 /* melt15.app */,
+				22C3AB8A2BA53FD600517D03 /* melt15Tests.xctest */,
+				22C3AB942BA53FD600517D03 /* melt15UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22C3AB7C2BA53FD400517D03 /* melt15 */ = {
+			isa = PBXGroup;
+			children = (
+				22C3AB7D2BA53FD400517D03 /* melt15App.swift */,
+				22C3AB7F2BA53FD400517D03 /* ContentView.swift */,
+				22C3AB812BA53FD600517D03 /* Assets.xcassets */,
+				22C3AB832BA53FD600517D03 /* Preview Content */,
+			);
+			path = melt15;
+			sourceTree = "<group>";
+		};
+		22C3AB832BA53FD600517D03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22C3AB842BA53FD600517D03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22C3AB8D2BA53FD600517D03 /* melt15Tests */ = {
+			isa = PBXGroup;
+			children = (
+				22C3AB8E2BA53FD600517D03 /* melt15Tests.swift */,
+			);
+			path = melt15Tests;
+			sourceTree = "<group>";
+		};
+		22C3AB972BA53FD600517D03 /* melt15UITests */ = {
+			isa = PBXGroup;
+			children = (
+				22C3AB982BA53FD600517D03 /* melt15UITests.swift */,
+				22C3AB9A2BA53FD600517D03 /* melt15UITestsLaunchTests.swift */,
+			);
+			path = melt15UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22C3AB792BA53FD400517D03 /* melt15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C3AB9E2BA53FD600517D03 /* Build configuration list for PBXNativeTarget "melt15" */;
+			buildPhases = (
+				22C3AB762BA53FD400517D03 /* Sources */,
+				22C3AB772BA53FD400517D03 /* Frameworks */,
+				22C3AB782BA53FD400517D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = melt15;
+			productName = melt15;
+			productReference = 22C3AB7A2BA53FD400517D03 /* melt15.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22C3AB892BA53FD600517D03 /* melt15Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C3ABA12BA53FD600517D03 /* Build configuration list for PBXNativeTarget "melt15Tests" */;
+			buildPhases = (
+				22C3AB862BA53FD600517D03 /* Sources */,
+				22C3AB872BA53FD600517D03 /* Frameworks */,
+				22C3AB882BA53FD600517D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C3AB8C2BA53FD600517D03 /* PBXTargetDependency */,
+			);
+			name = melt15Tests;
+			productName = melt15Tests;
+			productReference = 22C3AB8A2BA53FD600517D03 /* melt15Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22C3AB932BA53FD600517D03 /* melt15UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C3ABA42BA53FD600517D03 /* Build configuration list for PBXNativeTarget "melt15UITests" */;
+			buildPhases = (
+				22C3AB902BA53FD600517D03 /* Sources */,
+				22C3AB912BA53FD600517D03 /* Frameworks */,
+				22C3AB922BA53FD600517D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C3AB962BA53FD600517D03 /* PBXTargetDependency */,
+			);
+			name = melt15UITests;
+			productName = melt15UITests;
+			productReference = 22C3AB942BA53FD600517D03 /* melt15UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22C3AB722BA53FD400517D03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					22C3AB792BA53FD400517D03 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					22C3AB892BA53FD600517D03 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 22C3AB792BA53FD400517D03;
+					};
+					22C3AB932BA53FD600517D03 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 22C3AB792BA53FD400517D03;
+					};
+				};
+			};
+			buildConfigurationList = 22C3AB752BA53FD400517D03 /* Build configuration list for PBXProject "melt15" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22C3AB712BA53FD400517D03;
+			productRefGroup = 22C3AB7B2BA53FD400517D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22C3AB792BA53FD400517D03 /* melt15 */,
+				22C3AB892BA53FD600517D03 /* melt15Tests */,
+				22C3AB932BA53FD600517D03 /* melt15UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22C3AB782BA53FD400517D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C3AB852BA53FD600517D03 /* Preview Assets.xcassets in Resources */,
+				22C3AB822BA53FD600517D03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C3AB882BA53FD600517D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C3AB922BA53FD600517D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C3AB762BA53FD400517D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C3AB802BA53FD400517D03 /* ContentView.swift in Sources */,
+				22C3AB7E2BA53FD400517D03 /* melt15App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C3AB862BA53FD600517D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C3AB8F2BA53FD600517D03 /* melt15Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C3AB902BA53FD600517D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C3AB9B2BA53FD600517D03 /* melt15UITestsLaunchTests.swift in Sources */,
+				22C3AB992BA53FD600517D03 /* melt15UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22C3AB8C2BA53FD600517D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C3AB792BA53FD400517D03 /* melt15 */;
+			targetProxy = 22C3AB8B2BA53FD600517D03 /* PBXContainerItemProxy */;
+		};
+		22C3AB962BA53FD600517D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C3AB792BA53FD400517D03 /* melt15 */;
+			targetProxy = 22C3AB952BA53FD600517D03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22C3AB9C2BA53FD600517D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22C3AB9D2BA53FD600517D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22C3AB9F2BA53FD600517D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"melt15/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T66PM3UR2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.melt15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22C3ABA02BA53FD600517D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"melt15/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T66PM3UR2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.melt15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22C3ABA22BA53FD600517D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T66PM3UR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.melt15Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/melt15.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/melt15";
+			};
+			name = Debug;
+		};
+		22C3ABA32BA53FD600517D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T66PM3UR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.melt15Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/melt15.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/melt15";
+			};
+			name = Release;
+		};
+		22C3ABA52BA53FD600517D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T66PM3UR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.melt15UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = melt15;
+			};
+			name = Debug;
+		};
+		22C3ABA62BA53FD600517D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T66PM3UR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.melt15UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = melt15;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22C3AB752BA53FD400517D03 /* Build configuration list for PBXProject "melt15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C3AB9C2BA53FD600517D03 /* Debug */,
+				22C3AB9D2BA53FD600517D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C3AB9E2BA53FD600517D03 /* Build configuration list for PBXNativeTarget "melt15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C3AB9F2BA53FD600517D03 /* Debug */,
+				22C3ABA02BA53FD600517D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C3ABA12BA53FD600517D03 /* Build configuration list for PBXNativeTarget "melt15Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C3ABA22BA53FD600517D03 /* Debug */,
+				22C3ABA32BA53FD600517D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C3ABA42BA53FD600517D03 /* Build configuration list for PBXNativeTarget "melt15UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C3ABA52BA53FD600517D03 /* Debug */,
+				22C3ABA62BA53FD600517D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22C3AB722BA53FD400517D03 /* Project object */;
+}

@@ -20,6 +20,15 @@
 		22C3ABAF2BA5EC6D00517D03 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 22C3ABAE2BA5EC6D00517D03 /* FirebaseDatabaseSwift */; };
 		22C3ABB12BA5EC6D00517D03 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 22C3ABB02BA5EC6D00517D03 /* FirebaseFirestoreSwift */; };
 		22C3ABB32BA5EC6D00517D03 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 22C3ABB22BA5EC6D00517D03 /* FirebaseStorage */; };
+		22E2E9C82BA8EE9E000C3C94 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2E9C72BA8EE9E000C3C94 /* MainTabView.swift */; };
+		22E2E9CA2BA8EFD8000C3C94 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2E9C92BA8EFD8000C3C94 /* ProfileView.swift */; };
+		22E2E9CF2BA8F586000C3C94 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2E9CE2BA8F586000C3C94 /* UserStatView.swift */; };
+		22E2E9E92BA90731000C3C94 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2E9E82BA90730000C3C94 /* LoginView.swift */; };
+		22F821062BA913EC0054784E /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F821052BA913EC0054784E /* AddEmailView.swift */; };
+		22F821082BA918900054784E /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F821072BA918900054784E /* TextFieldModifier.swift */; };
+		22F8210A2BA919850054784E /* CreateUserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F821092BA919850054784E /* CreateUserNameView.swift */; };
+		22F8210C2BA91FA00054784E /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F8210B2BA91FA00054784E /* CreatePasswordView.swift */; };
+		22F8210E2BA922BB0054784E /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F8210D2BA922BB0054784E /* CompleteSignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,15 @@
 		22C3AB982BA53FD600517D03 /* melt15UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = melt15UITests.swift; sourceTree = "<group>"; };
 		22C3AB9A2BA53FD600517D03 /* melt15UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = melt15UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		22C3ABA72BA5EACF00517D03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22E2E9C72BA8EE9E000C3C94 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		22E2E9C92BA8EFD8000C3C94 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		22E2E9CE2BA8F586000C3C94 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		22E2E9E82BA90730000C3C94 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		22F821052BA913EC0054784E /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
+		22F821072BA918900054784E /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		22F821092BA919850054784E /* CreateUserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserNameView.swift; sourceTree = "<group>"; };
+		22F8210B2BA91FA00054784E /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
+		22F8210D2BA922BB0054784E /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				22C3AB832BA53FD600517D03 /* Preview Content */,
-				22C3AB7D2BA53FD400517D03 /* melt15App.swift */,
 				22C3AB7F2BA53FD400517D03 /* ContentView.swift */,
 				22C3AB812BA53FD600517D03 /* Assets.xcassets */,
+				22C3AB842BA53FD600517D03 /* Preview Assets.xcassets */,
 			);
 			path = melt15;
 			sourceTree = "<group>";
@@ -118,7 +136,11 @@
 		22C3AB832BA53FD600517D03 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				22C3AB842BA53FD600517D03 /* Preview Assets.xcassets */,
+				22E2E9BB2BA8ED83000C3C94 /* App */,
+				22E2E9BC2BA8ED8A000C3C94 /* Core */,
+				22E2E9BF2BA8EDC7000C3C94 /* Services */,
+				22E2E9BE2BA8EDC1000C3C94 /* Model */,
+				22E2E9BD2BA8EDAC000C3C94 /* Extensions */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -138,6 +160,115 @@
 				22C3AB9A2BA53FD600517D03 /* melt15UITestsLaunchTests.swift */,
 			);
 			path = melt15UITests;
+			sourceTree = "<group>";
+		};
+		22E2E9BB2BA8ED83000C3C94 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				22C3AB7D2BA53FD400517D03 /* melt15App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		22E2E9BC2BA8ED8A000C3C94 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				22E2E9C02BA8EDEF000C3C94 /* Authentication */,
+				22E2E9CD2BA8F569000C3C94 /* Components */,
+				22E2E9C12BA8EDF7000C3C94 /* Feed */,
+				22E2E9C22BA8EDFF000C3C94 /* Profile */,
+				22E2E9C32BA8EE09000C3C94 /* Root */,
+				22E2E9C42BA8EE0E000C3C94 /* Search */,
+				22E2E9C52BA8EE23000C3C94 /* TabBar */,
+				22E2E9C62BA8EE2C000C3C94 /* UploadPost */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		22E2E9BD2BA8EDAC000C3C94 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		22E2E9BE2BA8EDC1000C3C94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22E2E9BF2BA8EDC7000C3C94 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		22E2E9C02BA8EDEF000C3C94 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				22E2E9E82BA90730000C3C94 /* LoginView.swift */,
+				22F821052BA913EC0054784E /* AddEmailView.swift */,
+				22F8210B2BA91FA00054784E /* CreatePasswordView.swift */,
+				22F821092BA919850054784E /* CreateUserNameView.swift */,
+				22F8210D2BA922BB0054784E /* CompleteSignUpView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		22E2E9C12BA8EDF7000C3C94 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		22E2E9C22BA8EDFF000C3C94 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				22E2E9C92BA8EFD8000C3C94 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		22E2E9C32BA8EE09000C3C94 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		22E2E9C42BA8EE0E000C3C94 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		22E2E9C52BA8EE23000C3C94 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				22E2E9C72BA8EE9E000C3C94 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		22E2E9C62BA8EE2C000C3C94 /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadPost;
+			sourceTree = "<group>";
+		};
+		22E2E9CD2BA8F569000C3C94 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				22E2E9CE2BA8F586000C3C94 /* UserStatView.swift */,
+				22F821072BA918900054784E /* TextFieldModifier.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +412,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E2E9E92BA90731000C3C94 /* LoginView.swift in Sources */,
+				22F8210E2BA922BB0054784E /* CompleteSignUpView.swift in Sources */,
+				22E2E9CA2BA8EFD8000C3C94 /* ProfileView.swift in Sources */,
+				22F8210A2BA919850054784E /* CreateUserNameView.swift in Sources */,
+				22F821082BA918900054784E /* TextFieldModifier.swift in Sources */,
 				22C3AB802BA53FD400517D03 /* ContentView.swift in Sources */,
+				22F821062BA913EC0054784E /* AddEmailView.swift in Sources */,
 				22C3AB7E2BA53FD400517D03 /* melt15App.swift in Sources */,
+				22F8210C2BA91FA00054784E /* CreatePasswordView.swift in Sources */,
+				22E2E9CF2BA8F586000C3C94 /* UserStatView.swift in Sources */,
+				22E2E9C82BA8EE9E000C3C94 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
